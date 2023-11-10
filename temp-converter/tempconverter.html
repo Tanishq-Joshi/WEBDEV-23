@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TEMPERATURE CONVERTER</title>
+    <style> 
+        body{ 
+            margin: 0; 
+            padding: 0; 
+            font-family: 'Times New Roman', Times, serif; 
+            background-image: url('https://hizlihesaplama.com/dosyalar/2023/06/Rankine-to-Celsius-Conversion.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+        } 
+  
+        .box { 
+            width: 100%; 
+            height: 700px; 
+            display: flex; 
+            flex-direction: column; 
+            justify-content: center; 
+            align-items: center; 
+        } 
+  
+        .box h1 { 
+            color: rgb(229, 9, 9); 
+            -webkit-text-stroke: 2px black;
+            font-weight: 700; 
+            font-size: 50px; 
+            text-align: center; 
+        } 
+  
+        .conversion { 
+            display: flex; 
+            width: 40%; 
+            justify-content: space-between; 
+            align-items: center; 
+            background: rgb(0, 56, 0); 
+            border-radius: 30px; 
+            padding: 60px 20px; 
+        } 
+  
+        .temp { 
+            flex-basis: 32%; 
+            text-align: center; 
+        } 
+  
+        .temp label { 
+            font-size: 15px; 
+            font-weight: 500; 
+            margin-bottom: 10px; 
+            color: #fff; 
+        } 
+  
+        .temp input { 
+            width: 150px; 
+            height: 30px; 
+            background: white; 
+            border-radius: 5px; 
+            text-align: center; 
+        } 
+    </style> 
+</head> 
+  
+<body> 
+    <div class="box"> 
+        <h1> 
+            Temperature Converter</h1> 
+        <div class="conversion"> 
+            <div class="temp"> 
+                <label>Fahrenheit</label> 
+                <input type="number" placeholder="In Fahrenheit" id="fahrenheit"> 
+            </div> 
+  
+            <div class="temp"> 
+                <label>Celsius</label> 
+                <input type="number" placeholder="In Celsius" id="celsius"> 
+            </div> 
+  
+            <div class="temp"> 
+                <label>Kelvin</label> 
+                <input type="number" placeholder="In Kelvin" id="kelvin"> 
+            </div> 
+        </div> 
+    </div> 
+  <script src="tempconverter.js"></script>
+  <footer id="ft">
+    <span class="mb-3 mb-md-0 text-body-secondary">
+        © 2023, Tanishq Joshi.</span>
+</footer>
+
+</span>
+</body>
+</html>
